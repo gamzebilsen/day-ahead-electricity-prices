@@ -11,6 +11,10 @@ PJM's Data Miner:
 You can download the datasets and the example code to run the models in addition to the exploratory data analysis. The thought process choosing some data over the other or adding in binary variables such as day of week are further discussed in both the html and the pynotebook version.
 
 ## Usage
+A modeler can test out new methods to improve the final selected model or just use it as is. 
+
+One can import new day-ahead price data from PJM and predict future price data by using the model as it stands as well. I recommend changing the train and test split time frames if the new data is months/years after the last data pull in this project which is in April 2022.
+
 Final Model Results
 
 ![image](https://user-images.githubusercontent.com/50467434/166561585-a9822890-ab05-4dd6-8658-ff7f64c0c164.png)
